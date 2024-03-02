@@ -37,9 +37,9 @@ class Cat(Mammal):
         return 'cat can do meow'
     
 
-# my_dog = Dog('khalid','Husky','mammal')
-# print(my_dog.move())
-# print(my_dog.bark())
+my_dog = Dog('khalid','Husky','mammal')
+print(my_dog.move())
+print(my_dog.bark())
 
 
 # my_cat = Cat('Bhola','catwoman','mammal')

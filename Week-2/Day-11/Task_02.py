@@ -34,10 +34,10 @@ class Truck(Vehicle):
 class HyrbidTruck(Truck):
     def __init__(self, make, model, year, fuel_type, electric_motor_power):
         super().__init__(make, model, year, fuel_type)
-        self.electric_moto_power = electric_motor_power
+        self.electric_motor_power = electric_motor_power
 
     def info(self):
-        return f'{self.make}-{self.model}-{self.year}-{self.fuel_type}-{self.electric_moto_power}'
+        return f'{self.make}-{self.model}-{self.year}-{self.fuel_type}-{self.electric_motor_power}'
 
 
 my_truck = HyrbidTruck('Benz','Monster','2019','Diesel','battery')
