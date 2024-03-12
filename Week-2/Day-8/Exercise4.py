@@ -2,3 +2,5 @@
 forms a magic square'''
 
 
+# write your program 
+

@@ -4,7 +4,7 @@ def check(numbers):
     Odd_num = []
     Even_num = []
     for i in numbers:
-        if eval(i) % 2 == 0:
+        if i % 2 == 0:
             Even_num.append(i)
         else:
             Odd_num.append(i)
@@ -13,8 +13,11 @@ def check(numbers):
     print(f'even numbers : {Even_num}')
 
 
-numbers =[int(x) for x in  input('enter the numbers. \n').split()]
-
+numbers = int(input('ente the numbers. \n'))
+A =[]
+for i in range(int(numbers)):
+    k = int(input(""))
+    A.append(k)
 
 check(numbers)
 

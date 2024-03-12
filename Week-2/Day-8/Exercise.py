@@ -14,18 +14,14 @@ def grade(score, name):
 
 
 name = input("enter the name : ")
-score= int(input("enter the score : "))
-raise Exception("sorry, no number below 0")
+score = int(input("enter the score : "))
 
-
-grade(score,name)
-
+print(grade(score,name))
 
 
 
 
 
-# Q.2 Ticket Price Calculator Exercise
 
-# create a program that calculates the ticket price for a movie based on the age and whether the customer is a student.
+
 

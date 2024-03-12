@@ -9,9 +9,9 @@ def ticket_price(age, is_student):
     else:
         pass
 
-        if 0<= age <=12:
+        if age <=12:
             print("children Ticket Price is $10.")
-        elif 13<= age <=17:
+        elif age <=17:
             print("Teenagers Ticket price is $15.")
         elif is_student:
             print("Your Ticket price is $18")

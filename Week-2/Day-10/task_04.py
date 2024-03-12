@@ -1,7 +1,6 @@
 '''Q.5 Write a python function that accepts a string and calculate the number of upper case letters and lower case letters'''
 
 
-
 def calcStr(sabda):
     lower_count = 0
     upper_count = 0

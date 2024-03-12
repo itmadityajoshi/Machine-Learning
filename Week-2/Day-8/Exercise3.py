@@ -1,5 +1,5 @@
 ''' create a program that analyzes a given text and 
-counts the freqyency of each unique word '''
+counts the frequency of each unique word '''
 
 
 def count(user_input):
